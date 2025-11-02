@@ -59,13 +59,13 @@ class controladorCVD(QMainWindow):
         box_layout.setSpacing(15)  # espaco entre titulo e logo
         box_titulo_logo.setLayout(box_layout)
         
-        titulo = QLabel("Laboratório de Síntese e Caracterização de Nanomaterias")
+        titulo = QLabel("Sistema de Controle de Fluxo para CVD")
         titulo.setAlignment(Qt.AlignCenter)
         titulo.setStyleSheet("font-size: 20px; font-weight: bold;")
         titulo.setSizePolicy(QSizePolicy.Preferred, QSizePolicy.Fixed)
         
         logo = QLabel()
-        imagem = QPixmap("logo.png")
+        imagem = QPixmap("image.png")
         imagem = imagem.scaled(90, 90, Qt.KeepAspectRatio, Qt.SmoothTransformation)  # Redimensiona a logo
         logo.setPixmap(imagem)
         logo.setAlignment(Qt.AlignCenter)
@@ -873,5 +873,6 @@ def verificar_modbus_control(ip="192.168.2.155"):
 
 # verificar_modbus_control()
 #pode verificar no site fornecido pela mks 
+
 
 
