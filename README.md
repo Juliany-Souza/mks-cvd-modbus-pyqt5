@@ -3,7 +3,7 @@ Controladores de Fluxo MKS – CVD (PyQt5 + ModbusTCP)
 Aplicação de monitoramento e controle de fluxos e temperatura baseada em Python, desenvolvida para comunicação via ModbusTCP com controladores de fluxo digitais da marca MKS, utilizados em processos CVD (Chemical Vapor Deposition).
 O projeto demonstra integração hardware-software, leitura/escrita de registradores Modbus, interface gráfica em PyQt5 e visualização em tempo real com Matplotlib.
 
-![Interface do software](imagens/interface_cvd.png)
+![Interface do Software](interface_cvd.png)
 
 
 ⚙️ Funcionalidades
