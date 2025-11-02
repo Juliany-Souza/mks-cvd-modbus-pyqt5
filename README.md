@@ -5,7 +5,7 @@ O projeto demonstra integração hardware-software, leitura/escrita de registrad
 
 A imagem abaixo demonstra o funcionamento da interface com apenas um controlador ativo. O software suporta dois controladores simultâneos via ModbusTCP, mas no momento da captura apenas um estava conectado.
 
-![Interface do Software](interface_cvd.png)
+![Interface do Software](imagens/interface_cvd.png)
 
 
 ⚙️ Funcionalidades
